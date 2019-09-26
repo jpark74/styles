@@ -13,6 +13,7 @@ article {
 	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 4em;
+	max-width: 750px;
 
 }
 
@@ -25,28 +26,36 @@ em {
 }
 
 h1 {
-	font-size: 3em;
-	line-height: 1;
+	font-size: 3.2em;
+	line-height: 1em;
 	margin-bottom: 50px;
 	align-content: center;
 	text-align: center;
+	font-family: serif;
+
 }
 
 h2 {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: -0.025em;
-	margin-top: 60px;
+	margin-top: 120px;
 	margin-bottom: 40px;
-	font-style: oblique;
+	font-style: normal;
 	color: skyblue;
-	font-size: 20px;
+	font-size: 30px;
+	text-decoration-line: underline;
+	text-decoration-color: pink;
+	text-align: center;
+	
 }
 
 p {
 	margin: 0 0 1em 0;
-	font-family: sans-serif;
+	font-family: serif;
+	font-style: normal;
 	text-indent: 20px;
+
 }
 
 h3 {
@@ -57,8 +66,8 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    text-decoration-line: underline;
-    text-decoration-color: lightpink;
+    color: skyblue;
+    
 }
 
 h4 {
@@ -69,18 +78,19 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: skyblue;
 }
 
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
+    margin-block-start: 1.5em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid pink;
+    border: 3px solid skyblue;
     border-width: normal;
 }
